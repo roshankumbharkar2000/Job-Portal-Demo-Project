@@ -37,7 +37,7 @@ public class AuthController {
 
 
 
-
+//this is logout api
     @PostMapping("/logout")
     public ResponseEntity<?> logout(HttpServletRequest request) {
         String token = (request.getHeader("Authorization"));
